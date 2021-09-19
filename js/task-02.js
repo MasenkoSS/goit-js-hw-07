@@ -6,3 +6,14 @@ const ingredients = [
   'Зелень',
   'Приправы',
 ];
+
+const listEll = products => {
+  const productsItem = document.createElement('li');
+  productsItem.textContent = products;
+  return productsItem;
+};
+
+
+
+
+
