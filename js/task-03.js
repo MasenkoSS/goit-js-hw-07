@@ -14,6 +14,7 @@ const images = [
 ];
 
 const galleryItem = document.querySelector('#gallery');
+galleryItem.classList.add('js-gallery');
 console.log(galleryItem);
 
 
