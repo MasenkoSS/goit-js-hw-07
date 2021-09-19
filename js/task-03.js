@@ -23,8 +23,7 @@ const newGallery = images.map(
 );
 console.log(newGallery);
 
-
-
+galleryItem.insertAdjacentHTML('beforeend', newGallery.join('*'));
 
 
 
