@@ -12,8 +12,13 @@ const listEll = products => {
   productsItem.textContent = products;
   return productsItem;
 };
+console.log(listEll);
 
-
+const productItem = ingredients.map(products => listEll(products));
+console.log(productItem);
+const productsEll = document.querySelector('#ingredients');
+console.log(productsEll);
+productsEll.append(...productItem);
 
 
 
