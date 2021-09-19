@@ -1,0 +1,6 @@
+
+.js-gallery__link {
+    list-style: none;
+    justify-content: center;
+    display: flex;
+}
