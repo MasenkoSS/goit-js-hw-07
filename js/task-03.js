@@ -17,6 +17,14 @@ const galleryItem = document.querySelector('#gallery');
 galleryItem.classList.add('js-gallery');
 console.log(galleryItem);
 
+const newGallery = images.map(
+  image =>
+    (image = `<li class="js-gallery__link"><img width=460px alt="${image.alt}" src="${image.url}" class="js-gallery__img"></li>`),
+);
+console.log(newGallery);
+
+
+
 
 
 
