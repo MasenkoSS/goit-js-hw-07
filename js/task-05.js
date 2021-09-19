@@ -12,4 +12,14 @@ const refs = {
     refs.input.addEventListener('input', onInputChange);
     
 
-    
+        // Функция набирает  текст и подставляет его (возврат исходного значения)
+
+    function onInputChange(event) {
+        console.log(event.currentTarget.value);
+        refs.outputInsert.textContent = event.currentTarget.value;
+        
+        if (event.currentTarget.value === '') {
+            return (refs.outputInsert.textContent = 'незнакомец');
+          }
+         
+        }
